@@ -13,12 +13,12 @@ My personal website consists of four main pages:
 - **About:** a professional picture of me and a short description of
 my career goals, interests and hobbies.
 - **Work experience:** a resume in a table format.
-- **Contact:** info on how to reach out to me. 
+- **Contact:** info on how to reach out to me.
 
-#### HOME
+### HOME
 
-#### ABOUT ME
+### ABOUT ME
 
-#### EXPERIENCE
+### EXPERIENCE
 
-#### CONTACT
+### CONTACT
