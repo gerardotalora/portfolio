@@ -1,13 +1,17 @@
-.my_container_div {
-  background-color: papayawhip;
-  border: 3px gray solid;
-  border-radius: 25px;
-  margin: 10px;
-  padding: 20px;
-}
-
 .name {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 100em;
+  font-size: 5em;
+  text-align: center;
+}
+
+.title {
+  font-family: 'courier';
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
   text-align: center;
 }

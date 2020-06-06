@@ -1,10 +1,10 @@
 # Personal Website - Gerard Otalora
 
 In this project I will work with HTML, CSS, Javascript and JQuery in order
-to create a personal/CV-style website that I can use to display my personal
+to create a personal/resume-style website that I can use to display my personal
 and professional projects.
 
-## Website Link
+## Heroku Link
 
 ## Website Structure
 
