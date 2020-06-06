@@ -1,0 +1,19 @@
+.name {
+  position: absolute;
+  top: 20vh;
+  left: 1vw;
+  width: 60vw;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 75px;
+  text-align: center;
+  color: black;
+}
+
+.description {
+  position: absolute;
+  top: 34vh;
+  left: 1vw;
+  width: 60vw;
+  font-family: courier;
+  text-align: center;
+}
