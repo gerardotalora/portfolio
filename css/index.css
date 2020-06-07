@@ -1,28 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+p span {
+  display: inline-block;
+}
+
 .name {
   position: absolute;
-  top: 20vh;
-  left: 1vw;
-  width: 60vw;
-  font-family: 'Cormorant Garamond', serif;
+  top: 150px;
+  left: 125px;
   font-size: 75px;
+  font-family: 'Cormorant Garamond', serif;
   text-align: center;
   color: black;
 }
 
 .description {
   position: absolute;
-  top: 36vh;
-  left: 1vw;
-  width: 60vw;
+  top: 275px;
+  left: 200px;
   font-family: courier;
   text-align: center;
 }
 
 
 .linkedin-position {
+  max-width: 100%;
   position: absolute;
-  top: 50vh;
-  left: 6vw;
+  top: 350px;
+  left: 150px;
 }
 
 .linkedin-position:hover {
@@ -30,11 +37,140 @@
 }
 
 .twitter-position {
+  max-width: 100%;
   position: absolute;
-  top: 50vh;
-  left: 12vw;
+  top: 350px;
+  left: 225px;
 }
 
 .twitter-position:hover {
   opacity: 0.5;
+}
+
+.gerard-image {
+  max-width: 100%;
+  position: absolute;
+  top: 120px;
+  right: 75px;
+  object-fit: contain;
+}
+
+/* This display will cover the screen size of most smart
+phones (iPhone 5 and older not included) */
+@media screen and (max-width: 480px) and (min-width: 375px) {
+  p span {
+    display: block;
+  }
+
+  .name {
+    top: 125px;
+    left: 50px;
+    font-size: 60px;
+    text-align: left;
+  }
+
+  .description {
+    top: 325px;
+    left: 100px;
+    text-align: left;
+  }
+
+  .linkedin-position {
+    top: 425px;
+    left: 100px;
+  }
+
+  .twitter-position {
+    top: 425px;
+    left: 175px;
+  }
+
+  .gerard-image {
+    top: 550px;
+    left: 5px;
+    object-fit: contain;
+  }
+}
+
+/* Fixing the photo position to be more centered */
+@media screen and (max-width: 480px) and (min-width: 380px) {
+  .gerard-image {
+    left: 20px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 756px) and (min-width: 480px) {
+  p span {
+    display: block;
+  }
+
+  .name {
+    top: 125px;
+    left: 75px;
+    text-align: left;
+  }
+
+  .description {
+    top: 350px;
+    left: 150px;
+    text-align: left;
+  }
+
+  .linkedin-position {
+    top: 460px;
+    left: 175px;
+  }
+
+  .twitter-position {
+    top: 460px;
+    left: 250px;
+  }
+
+  .gerard-image {
+    top: 575px;
+    left: 75px;
+    object-fit: contain;
+  }
+}
+
+/* This display will cover the screen size of most iPads and tablets */
+@media screen and (max-width: 980px) and (min-width: 756px) {
+  p span {
+    display: inline-block;
+  }
+
+  .name {
+    top: 150px;
+    left: 50px;
+    text-align: left;
+  }
+
+  .description {
+    top: 275px;
+    left: 125px;
+    text-align: center;
+  }
+
+  .gerard-image {
+    top: 500px;
+    left: 200px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+  .name {
+    left: 125px;
+  }
+
+  .description {
+    left: 200px;
+  }
+
+  .gerard-image {
+    top: 500px;
+    left: 275px;
+    object-fit: contain;
+  }
 }
