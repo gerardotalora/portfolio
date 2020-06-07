@@ -9,18 +9,19 @@ black and white website.
 
 ## Website Structure
 
-My personal website consists of four pages:
+My personal website consists of three pages:
 - **Home:** the _index.html_ page displays basic information about myself such
 as my name, a few keywords that represent me, a picture and the LinkedIn and
 Twitter icons that are _external links_ and will bring the user to my profile
 page of these social media platforms. I have added a little bit of extra
 _CSS style_ to these icons so when the mouse is on them their opacity decreases.
-- **About:** the _about.htlm_ page displays another picture of me and a short
-background and description of my career goals, interests and hobbies.
-- **Work experience:**
-- **Contact:**
+- **About:** the _about.htlml_ page displays another picture of me, a short
+background and three collapsibles with my education, experience and fun facts.
+- **Contact:** the _contact.html_ page displays a message _Let's talk!_, some
+personal contact information as well as icons with my social media accounts
+(same as in home page).
 
-**Note:** all four pages share a _header bar_ with _internal links_ to all four
+**Note:** all three pages share a _header bar_ with _internal links_ to all four
 pages so it is easy for the user to mover through the website without the need
 to use the back/forward arrows.
 
@@ -29,7 +30,5 @@ to use the back/forward arrows.
 ![Home](/readme_images/website-home.jpg)
 
 ### About
-
-### Experience
 
 ### Contact
