@@ -17,3 +17,24 @@
   font-family: courier;
   text-align: center;
 }
+
+
+.linkedin-position {
+  position: absolute;
+  top: 50vh;
+  left: 6vw;
+}
+
+.linkedin-position:hover {
+  opacity: 0.5;
+}
+
+.twitter-position {
+  position: absolute;
+  top: 50vh;
+  left: 12vw;
+}
+
+.twitter-position:hover {
+  opacity: 0.5;
+}
