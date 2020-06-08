@@ -17,8 +17,8 @@ page of these social media platforms. I have added a little bit of extra
 _CSS style_ to these icons so when the mouse is on them their opacity decreases.
 - **About:** the _about.htlml_ page displays another picture of me, a short
 background and three collapsibles with my education, experience and fun facts.
-- **Contact:** the _contact.html_ page displays a message _Let's talk!_, some
-personal contact information as well as icons with my social media accounts
+- **Contact:** the _contact.html_ page displays a message _Let's talk!_, a
+personal email address email as well as some icons with my social media accounts
 (same as in home page).
 
 **Note:** all three pages share a _header bar_ with _internal links_ to all four
