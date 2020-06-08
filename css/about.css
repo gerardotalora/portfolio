@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+#intro {
+  position: relative;
+  width: 100vw;
+  height: 775px;
+}
+
+.profile {
+  position: absolute;
+  top: 11vh;
+  left: 20vw;
+  width: 60vw;
+  text-align: center;
+}
+
+.background {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: courier;
+  text-align: center;
+  color: black;
+}
+
+.collapsible {
+  background-color: black;
+  color: white;
+  font-family: courier;
+  cursor: pointer;
+  padding: 18px;
+  border-color: white;
+  border: hidden;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+
+.active, .collapsible:hover {
+  opacity: 0.8;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
