@@ -54,9 +54,30 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
 }
 
 .show {
   display: block;
+}
+
+table, th {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: courier;
+  font-size: 16px;
+  table-layout: fixed;
+  width: 50%;
+}
+
+th:hover {
+  opacity: 0.5;
 }
