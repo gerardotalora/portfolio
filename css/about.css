@@ -81,3 +81,41 @@ table, th {
 th:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 420px) and (min-width: 375px) {
+  .profile {
+    left: 5px;
+  }
+  .background {
+    font-size: 14px;
+    text-align: left;
+  }
+  table, th {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 421px) {
+  .profile {
+    left: 6.5vw;
+  }
+  .background {
+    font-size: 15px;
+    text-align: center;
+  }
+  table, th {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .background {
+    font-size: 17px;
+  }
+  table, th {
+    width: 100%;
+  }
+}
