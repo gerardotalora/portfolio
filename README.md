@@ -7,7 +7,7 @@ black and white website.
 
 ## Website Link
 
-TBA
+[www.gerardotalora.com](http://www.gerardotalora.com)
 
 ## Heroku Link
 
