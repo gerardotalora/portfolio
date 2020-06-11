@@ -5,7 +5,13 @@ to create a personal website that I can use to display my personal
 and professional projects. The idea is to create a stylish yet minimalist
 black and white website.
 
+## Website Link
+
+TBA
+
 ## Heroku Link
+
+TBA
 
 ## Website Structure
 
@@ -17,11 +23,11 @@ page of these social media platforms. I have added a little bit of extra
 _CSS style_ to these icons so when the mouse is on them their opacity decreases.
 - **About:** the _about.htlml_ page displays another picture of me, a short
 background and three collapsibles with my education, experience and tech skills.
-After you click in one of the collapsibles, they display _tables_ with
-information (e.g. names of school I have attended, the places where I
-have worked and the programming languages I know) together with icons that
-represent every cell. When hovering on a cell, its opacity changes to create a
-_visual aspect_.
+After you click in one of the collapsibles, the screen automatically scrolls
+down to display _tables_ with information (e.g. names of school I have
+attended, the places where I have worked and the programming languages I know)
+together with icons that represent every cell. When hovering on a cell, its
+opacity changes to create a _visual aspect_.
 - **Contact:** the _contact.html_ page displays a message _Let's talk!_, a
 personal email address email (when you click your mail service opens a
 new message with my address) as well as some icons with my social media accounts
