@@ -13,7 +13,7 @@ black and white website.
 
 [wwww.gerardotalora-website.herokuapp.com](https://gerardotalora-website.herokuapp.com)
 
-Note: some of the link icons (i.e. LinkedIn and Twitter icons might not display
+**Note:** some of the link icons (i.e. LinkedIn and Twitter icons might not display
 well on Heroku, please feel free to check them on the above website link).
 
 ## Website Structure
