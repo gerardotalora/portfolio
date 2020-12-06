@@ -78,10 +78,6 @@ table, th {
   width: 50%;
 }
 
-th:hover {
-  opacity: 0.5;
-}
-
 @media screen and (max-width: 420px) and (min-width: 375px) {
   .profile {
     left: 5px;
